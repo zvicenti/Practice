@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='en'>
+<!--
+Name: Zachary Vicenti
+Date Created: Jan. 10th 2020
+Most Recent Revision: Jan 10th, 2020
+-->
+<html>
+  <head>
+    <title>Contact Page</title>
+    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+ </head>
+
+    <body>
+        <div id="header">
+            <header>
+              <h1>Chu Chu's Pizzaria</h1>
+            <header/>
+        </div>
+
+            <hr/>
+        
+        <div id="navigation">   
+            <nav>
+                <a href="Index.html">Home</a>
+                <a href="Menu.html">Menu</a>
+                <a href="Contact.html">Contact Us</a>
+            </nav>
+        </div>   
+
+            <hr/>
+
+        <div id="form" class="container">    
+            <form action="http://localhost:3000/" method="post">
+                <label id="input">Name:</label> 
+                    <input type="text" name="name" required/>
+                        <br>
+                <label id="input">Email:</label>
+                    <input type="text" name="email" required />
+                        <br>
+                <lable id="input">Phone:</lable>
+                    <input type="text" name="phone" required />    
+                       <br>    
+                <lable id="input">Reason for Inquiry:</lable>
+                    <select  name="reasons">
+                        <option value="Catering">Catering</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="Compliment">Compliment</option>
+                    </select> 
+                        <br/>
+                <lable id="input">Additional Comments</lable>
+                    <textarea name = "additionalcomments"></textarea>
+                        <br/>
+                <label id="input">Have You been to the restaurant?:</label> 
+                    <input type="radio" name="answer" value="Yes">Yes
+                    <input type="radio" name="answer" value="No">No
+                        <br/>
+                <label id="input">Best day(s) to contact you:</label>
+                    <input type="checkbox" name="M" value="M"> M
+                    <input type="checkbox" name="T" value="T"> T
+                    <input type="checkbox" name="W" value="W"> W
+                    <input type="checkbox" name="Th" value="Th"> Th
+                    <input type="checkbox" name="F" value="F"> F
+                
+                     <br><br>
+
+                <label id="input"></label>
+                    <input type="submit" />
+                    <input type="reset"/>
+             </form>
+        </div>
+
+        <br/>
+        
+        <div id="footer">
+            <footer>
+                <hr/>
+                    77 Sulphur Springs St.Hamburg, NY 14075 
+                     <br/> 
+                    (507) 618 - 0001 
+                     <hr/>
+                 <sub><p>&copy; 2020 Z.Vicenti. All rights reserved.</p></sub>
+             </footer>
+        </div>
+    </body>
+</html>
+    
+   
+

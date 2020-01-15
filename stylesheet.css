@@ -1,0 +1,48 @@
+nav a{
+	float: center;
+    padding: 10px;
+}
+
+.jumbotron{
+     text-align: center;
+     color: red;
+    background-color: red;
+ }
+		   
+header{
+    padding: 10px;
+}
+			
+body{
+	text-align: center;
+	padding: 5px;
+}
+
+form input{
+			   
+	padding: 5px;
+	background-color: red;
+	position: relative;			   
+}
+
+textarea{
+	vertical-align: top;
+	padding: 12px 20px;
+	resize: vertical;
+	float: center;				
+}
+nav a{
+	float: center;
+	padding: 10px;	
+}
+
+table, th, td {
+	border: 0px none;
+	border-collapse: collapse;
+	
+	
+}
+th, td {
+	padding: 5px;
+	text-align: center;  
+}
